@@ -31,10 +31,10 @@ Example:
 
 **How to get started**
 
-You will be using React, Typescript and [Apollo Client](https://www.apollographql.com/docs/react/v3.0-beta/).
+You will be using React, Typescript and [Apollo Client](https://www.apollographql.com/docs/react/).
 We have set up the Apollo Client for you.
 The API that you will be using is from bloktap.io.
-The GraphQL explorer can be accessed via this link https://api.blocktap.io/graphiql.
+The GraphQL explorer can be accessed via this link https://api.blocktap.io/graphiql (tip: download `Apollo Client Developer Tools` Chrome Extension)
 
 This example query will shows you all the data that you will be needing:
 
@@ -42,11 +42,12 @@ You can check Blocktap documentation for more help: https://www.blocktap.io/docs
 
 **We will judge your code based on the following criteria:**
 
+- Styling (we want you to style the components yourself and not use any framework/library for that). Try to mimic the example design as much as possible.
 - Knowledge of routing and navigation
 - ES6 and React Hooks
 - Typescript Typing
 - Modularity and reusability of your code (think about components)
-- Mobile first responsive implementation of the pages
+- Mobile first responsive implementation of the pages (to the best of your ability)
 - Search
 - Your explanation if you diverted from the assignment, because you had a nicer way of doing things or if something was impossible to achieve
 - _Bonus (optional):_ Theme toggle for dark mode

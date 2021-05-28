@@ -1,4 +1,9 @@
-import { isPalindrome, removeDuplicates, sumToTarget } from "./helpers";
+import {
+  isPalindrome,
+  removeDuplicates,
+  sumToTarget,
+  getSize,
+} from "./helpers";
 
 describe("Helpers Suite", () => {
   it("dummy test", () => {
@@ -29,6 +34,13 @@ describe("Helpers Suite", () => {
   //     "ed",
   //     "f",
   //   ]);
+  // });
+
+  // it("should return the collection size", () => {
+  //   expect(getSize([1, 2, 3])).toEqual(3);
+  //   expect(getSize({ a: 1, b: 2 })).toEqual(2);
+  //   expect(getSize("pebbles")).toEqual(7);
+  //   expect(getSize(12345)).toEqual(5);
   // });
 
   // it("should identify if sum to target exist", () => {

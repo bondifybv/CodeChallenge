@@ -8,6 +8,10 @@ export const removeDuplicates = (arr: numberOrString[]): numberOrString[] => {
   return [];
 };
 
+export const getSize = (collection: any): number => {
+  return 0;
+};
+
 export const sumToTarget = (arr: number[], target: number) => {
   return [];
 };

@@ -6,11 +6,7 @@ import {
 } from "./helpers";
 
 describe("Helpers Suite", () => {
-  it.only("dummy test", () => {
-    expect(true).toBe(true);
-  });
-
-  it("should inverse a given string", () => {
+  it.only("should tell whether a string is a pallindrom", () => {
     expect(isPalindrome("")).toEqual(true);
     expect(isPalindrome("abcd")).toEqual(false);
     expect(isPalindrome("11/11/11")).toEqual(true);

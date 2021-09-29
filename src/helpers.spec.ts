@@ -6,14 +6,14 @@ import {
 } from "./helpers";
 
 describe("Helpers Suite", () => {
-  it.only("should tell whether a string is a pallindrom", () => {
+  it("should tell whether a string is a pallindrom", () => {
     expect(isPalindrome("")).toEqual(true);
     expect(isPalindrome("abcd")).toEqual(false);
     expect(isPalindrome("11/11/11")).toEqual(true);
     expect(isPalindrome("madam")).toEqual(true);
   });
 
-  it("should remove duplicated elements", () => {
+  xit("should remove duplicated elements", () => {
     expect(removeDuplicates([])).toEqual([]);
     expect(removeDuplicates([1, 2, 3, 4])).toEqual([1, 2, 3, 4]);
     expect(removeDuplicates([0, 0, 4, 4, 5, 5])).toEqual([0, 4, 5]);
@@ -32,7 +32,7 @@ describe("Helpers Suite", () => {
     ]);
   });
 
-  it("should search a collection for a target value", () => {
+  xit("should search a collection for a target value", () => {
     const nestedObject = {
       data: {
         info: {
@@ -40,7 +40,7 @@ describe("Helpers Suite", () => {
             thing: {
               moreStuff: {
                 magicNumber: 44,
-                something: "foo2",
+                magicString: "bar",
               },
             },
           },
@@ -51,7 +51,7 @@ describe("Helpers Suite", () => {
     expect(contains(nestedObject, "foo")).toEqual(false);
   });
 
-  it("should identify if sum to target exist", () => {
+  xit("should identify if sum to target exist", () => {
     expect(sumToTarget([], 0)).toEqual([]);
     expect(sumToTarget([3, 6, 7, 12, -1, -4], 100)).toEqual([]);
     expect(sumToTarget([3, 6, 7, 12, -1, -4], 10)).toEqual([3, 7]);
